@@ -122,7 +122,10 @@ h1 {
 
 .all-blogs {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+
+    grid-auto-flow: row;
     gap: 30px;
 }
 
@@ -185,4 +188,64 @@ h1 {
 
 .info-time-commnets .clock {
     margin-right: 30px;
+    color: #161616;
 }
+
+/* Footer Section Style */
+.main-footer {
+    height: 444px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    text-align: center;
+
+}
+
+.logo-text h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.line hr {
+    margin: 50px 0px;
+    border: 0.5px solid rgba(48, 48, 48, 0.566)
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    list-style: none;
+    padding: 0 16px;
+    line-height: 50px;
+    flex-wrap: wrap;
+}
+
+li a {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    list-style: none;
+    padding: 0 16px;
+    line-height: 50px;
+}
+
+.social-icon i {
+
+    color: #ffffff;
+    font-size: 30px;
+    margin: 20px 20px;
+
+}
+
+/* .icon>i {
+    margin: 0 40px;
+} */
