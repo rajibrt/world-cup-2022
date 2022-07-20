@@ -308,12 +308,11 @@ Meda Queries - Responsiveness
     }
 
     .hero-right-block img {
-        width: 233px;
-        height: 245px;
-        position: absolute;
+        width: 80%;
+        height: fit-content;
         place-items: center;
         justify-content: center;
-        /* display: none; */
+
     }
 
     .hero-section:hover img {
