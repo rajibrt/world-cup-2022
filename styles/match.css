@@ -20,10 +20,6 @@ body {
 
 }
 
-/* button {
-    font-family: 'Poppins', sans-serif;
-    ;
-} */
 
 h1 {
     font-size: 70px;
@@ -82,13 +78,9 @@ h1 {
     margin-top: -0;
 }
 
-
-
 .live-btn:hover {
-
     margin-top: -10px;
 }
-
 
 .hero-right-block {
     width: 50%;
@@ -336,8 +328,6 @@ Meda Queries - Responsiveness
         margin: 0 auto;
     }
 
-
-
     .hero-right-block {
         display: flex;
         justify-content: center;
@@ -345,10 +335,6 @@ Meda Queries - Responsiveness
 
     .hero-right-block img {
         height: 50%;
-        /* height: fit-content;
-        place-items: center;
-        justify-content: center; */
-
     }
 
     /*---- Blog Section Responsive for Mobile----*/
@@ -364,7 +350,6 @@ Meda Queries - Responsiveness
         display: inline-block;
         background-color: #fff;
         position: relative;
-        /* align-items: center; */
         height: auto;
         padding: 0px 30px 0 30px;
     }
@@ -398,8 +383,6 @@ Meda Queries - Responsiveness
     .blog-section {
         display: flex;
         width: 100%;
-        /* margin-left: 20px;
-        margin-right: 20px; */
     }
 
 
@@ -498,7 +481,6 @@ Meda Queries - Responsiveness
     }
 
     .main-menu button {
-        /* display: block; */
         width: 210px;
         height: 64px;
         font-size: 20px;
